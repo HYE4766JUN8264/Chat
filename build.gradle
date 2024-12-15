@@ -10,6 +10,6 @@ repositories {
 }
 
 dependencies {
-    // 필요한 경우 의존성 추가 (예: Gson 등)
-    // implementation 'com.google.code.gson:gson:2.8.8'
+    // Gradle 의존성 추가: JSON 처리를 위해 Gson 또는 Jackson 사용.
+    implementation 'com.google.code.gson:gson:2.8.8'
 }
